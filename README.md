@@ -12,12 +12,12 @@ Thanks to Eli Stevens and the contributors for their work on X-Wing Squadron Spe
 * Be human-readable
 
 
-## Shatterpoint Strike Team Data Format (Shatterpoint Strike Team Format or .SPS)
+## Strike Team Data Format (Shatterpoint Strike Team Format or .SPS)
 A container can be represented as a stand-alone JSON file encoded in UTF-8 with either an .sps or a .json extension. MIME types of application/json or text/plain SHOULD be accepted by API endpoints.
 
 A Strike Team is generally a single player's list used for a Star Wars: Shatterpoint match.
 
-Note that no assertion of tournament-legality is made for a Strike Team represented in this format. While the specification targets tournament legal lists (single-faction, points and pilots as printed, etc.), there are some rules of list construction that are not enforced by this specification (point totals, pilots having the required upgrade, slots for an upgrade card, etc.).
+Note that no assertion of tournament-legality is made for a Strike Team represented in this format. While the specification targets tournament legal lists, there are some rules of list construction that are not enforced by this specification (point totals, duplicated units, etc.).
 
 Importing implementations MUST perform validation before making assumptions about the appropriate nature of a list for any given purpose.
 
